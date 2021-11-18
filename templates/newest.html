@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block head %} 
+
+{% endblock %}
+
+
+
+{% block main %}
+
+
+<table>
+        <h1>
+            <td>USA</td>
+            <td>ARG</td>
+            
+        </h1>
+
+    {% for i in matching_usa %}
+        {% set item_1 = matching_usa[loop.index-1]%}
+        {% set item_2 = matching_arg[loop.index-1]%}
+    
+    <tr>
+        <td>
+        <img src="{{ item_1 }}"/>
+        </td>
+
+        <td>
+        <img src="{{ item_2 }}"/>
+        </td>
+    {% endfor %}
+
+
+</table>
+
+
+
+{% endblock %}

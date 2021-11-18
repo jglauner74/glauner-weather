@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block head %} 
+
+{% endblock %}
+
+
+
+{% block main %}
+
+
+{% if links is undefined %}
+
+    <form action="/usa" method="POST">
+        
+        <select name="forecast_datez">
+          {% for date in forecast_datez %}
+              <option value="{{ date }}">{{ date }}</option>
+          {% endfor %}
+        </select>
+
+        <button class="btn btn-primary" type="submit" name="graphics_button" value="graphics_button">Show me the Graphics!</button>
+        
+        
+        
+    </form>
+
+
+    
+
+
+{% else %}
+
+    {% for url in links %}
+        <img src="{{ url }}"/>
+    {% endfor %}
+
+{% endif %}
+
+
+{% endblock %}
