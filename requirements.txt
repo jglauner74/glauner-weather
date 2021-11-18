@@ -11,7 +11,7 @@ distlib==0.3.3
 filelock==3.3.2
 Flask==2.0.2
 Flask-SQLAlchemy==2.5.1
-GEOS==3.7.2
+geos==0.2.3
 greenlet==1.1.2
 gunicorn==20.1.0
 idna==2.9
