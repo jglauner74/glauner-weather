@@ -1,7 +1,6 @@
 appdirs==1.4.4
 backports.entry-points-selectable==1.1.0
 beautifulsoup4==4.10.0
-cartopy==0.18.0
 certifi==2019.11.28
 cftime==1.5.1.1
 chardet==3.0.4
@@ -53,3 +52,4 @@ Werkzeug==2.0.2
 xarray==0.20.0
 zipp==3.6.0
 zope.interface==5.4.0
+cartopy==0.18.0
