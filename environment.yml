@@ -2,8 +2,9 @@ name: AAA-Projects
 channels:
     - conda-forge
 dependencies:
-- python=3.6
 - anaconda
+- conda-forge:
+    - cartopy
 - pip
 - pip:
   - appdirs==1.4.4
