@@ -2,6 +2,7 @@ name: AAA-Projects
 channels:
     - conda-forge
 dependencies:
+- python==3.8.2
 - anaconda
 - conda-forge:
     - cartopy
